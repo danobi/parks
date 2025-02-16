@@ -1,4 +1,4 @@
-% SF Parks
+# SF Parks
 
 I want to visit every public park in San Francisco.
 
