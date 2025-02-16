@@ -36,6 +36,33 @@
           height: 100%;
           border: none;
         }
+
+        .details {
+          margin-top: 20px;
+        }
+
+        .label {
+          font-weight: bold;
+          font-size: 18px;
+          margin-bottom: 5px;
+        }
+
+        .rating {
+          color: gold;
+          font-size: 24px;
+          margin: 5px 0 20px 0;
+          margin-left: 20px;
+        }
+
+        .remarks {
+          font-size: 16px;
+          color: #333;
+          margin-left: 20px;
+        }
+
+        .empty {
+          color: #ccc;
+        }
     </style>
   </head>
   <body>
@@ -47,6 +74,13 @@
 
     <div class="map-container">
       <iframe id="map-view" class="map-frame"></iframe>
+    </div>
+
+    <div class="details">
+      <div class="label">Rating:</div>
+      <div class="rating"></div>
+      <div class="label">Remarks:</div>
+      <div class="remarks"></div>
     </div>
 
     <script>
@@ -73,6 +107,25 @@
 
       function onSelect(park) {
         document.getElementById('map-view').src = '/data/maps/' + park;
+        fetch('/data/done.json')
+          .then(response => response.json())
+          .then(done => {
+            const ratingDiv = document.querySelector('.rating');
+            const remarksDiv = document.querySelector('.remarks');
+            const parkName = park.replace('.html', '');
+            const parkInfo = done[parkName];
+
+            if (parkInfo) {
+              const fullStars = '★'.repeat(parkInfo.Rating);
+              const emptyStars = '★'.repeat(5 - parkInfo.Rating);
+              ratingDiv.innerHTML =
+                `<span>${fullStars}</span><span class="empty">${emptyStars}</span>`;
+              remarksDiv.textContent = parkInfo.Remarks;
+            } else {
+              ratingDiv.innerHTML = '<span class="empty">★★★★★</span>';
+              remarksDiv.textContent = 'No review yet';
+            }
+          });
       };
     </script>
   </body>
