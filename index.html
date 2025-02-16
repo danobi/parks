@@ -11,8 +11,17 @@
           padding: 20px;
         }
 
-        .controls {
-          margin-bottom: 20px;
+        .header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 100%;
+          margin-bottom: 10px;
+        }
+
+        .counter {
+          font-size: 16px;
+          color: #333;
         }
 
         select {
@@ -66,11 +75,14 @@
     </style>
   </head>
   <body>
-    <div class="controls">
-      <select
-        onchange="onSelect(this.value)">
-      </select>
-    </div>
+     <div class="header">
+       <div class="controls">
+         <select
+           onchange="onSelect(this.value)">
+         </select>
+       </div>
+       <div class="counter"></div>
+     </div>
 
     <div class="map-container">
       <iframe id="map-view" class="map-frame"></iframe>
@@ -93,6 +105,11 @@
         .then(([parks, done]) => {
           const select = document.querySelector('select');
           Object.entries(parks).forEach(([name, size]) => {
+            const counter = document.querySelector('.counter');
+            const totalParks = Object.keys(parks).length;
+            const doneParks = Object.keys(done).length;
+            counter.textContent = `${doneParks}/${totalParks} parks in SF visited`;
+
             const option = document.createElement('option');
             option.value = `${name}.html`;
             option.textContent = name;
