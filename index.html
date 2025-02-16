@@ -85,9 +85,12 @@
 
     <script>
       // Fetch parks data and populate dropdown
-      fetch('/data/park_sizes.json')
-        .then(response => response.json())
-        .then(parks => {
+      Promise.all([
+        fetch('/data/park_sizes.json'),
+        fetch('/data/done.json')
+      ])
+        .then(responses => Promise.all(responses.map(r => r.json())))
+        .then(([parks, done]) => {
           const select = document.querySelector('select');
           Object.entries(parks).forEach(([name, size]) => {
             const option = document.createElement('option');
@@ -95,6 +98,9 @@
             option.textContent = name;
             if (size != 0) {
               option.textContent += ` (${size} acres)`;
+            }
+            if (done[name]) {
+              option.textContent = "✅ " + option.textContent;
             }
             select.appendChild(option);
           });
