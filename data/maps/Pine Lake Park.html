@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_80b5e233472e9294b490448ead88bf3b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_80b5e233472e9294b490448ead88bf3b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_80b5e233472e9294b490448ead88bf3b = L.map(
+                "map_80b5e233472e9294b490448ead88bf3b",
+                {
+                    center: [37.73632770309858, -122.4859616857482],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1429828bd71400d4c97cce428bbd3549 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1429828bd71400d4c97cce428bbd3549.addTo(map_80b5e233472e9294b490448ead88bf3b);
+        
+    
+            var marker_e74e03851e9f54856efedd6e589145cd = L.marker(
+                [37.73632770309858, -122.4859616857482],
+                {
+}
+            ).addTo(map_80b5e233472e9294b490448ead88bf3b);
+        
+    
+        var popup_d6a8c6c467d2d69ab4c646ac448f6a38 = L.popup({
+  "maxWidth": 300,
+  "autoOpen": true,
+});
+
+        
+            
+                var html_5d3ab2a4aa0bdfc125534b8bf8443d3c = $(`<div id="html_5d3ab2a4aa0bdfc125534b8bf8443d3c" style="width: 100.0%; height: 100.0%;">Pine Lake Park</div>`)[0];
+                popup_d6a8c6c467d2d69ab4c646ac448f6a38.setContent(html_5d3ab2a4aa0bdfc125534b8bf8443d3c);
+            
+        
+
+        marker_e74e03851e9f54856efedd6e589145cd.bindPopup(popup_d6a8c6c467d2d69ab4c646ac448f6a38)
+        ;
+
+        
+    
+</script>
+</html>

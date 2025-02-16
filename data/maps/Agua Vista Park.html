@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5e9842e3d36e0517fe1f4ef59a2e56b9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5e9842e3d36e0517fe1f4ef59a2e56b9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5e9842e3d36e0517fe1f4ef59a2e56b9 = L.map(
+                "map_5e9842e3d36e0517fe1f4ef59a2e56b9",
+                {
+                    center: [37.76621609536071, -122.38612381738896],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6b20fd29a9f0a26b7cc44ce18b2a3644 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6b20fd29a9f0a26b7cc44ce18b2a3644.addTo(map_5e9842e3d36e0517fe1f4ef59a2e56b9);
+        
+    
+            var marker_30d8e7ca13bf8d83129c4ad4095645a3 = L.marker(
+                [37.76621609536071, -122.38612381738896],
+                {
+}
+            ).addTo(map_5e9842e3d36e0517fe1f4ef59a2e56b9);
+        
+    
+        var popup_7d4556eedd2981cbc607717677b7ac67 = L.popup({
+  "maxWidth": 300,
+  "autoOpen": true,
+});
+
+        
+            
+                var html_7da5f6289d528b43b41a19bb9b80b47c = $(`<div id="html_7da5f6289d528b43b41a19bb9b80b47c" style="width: 100.0%; height: 100.0%;">Agua Vista Park</div>`)[0];
+                popup_7d4556eedd2981cbc607717677b7ac67.setContent(html_7da5f6289d528b43b41a19bb9b80b47c);
+            
+        
+
+        marker_30d8e7ca13bf8d83129c4ad4095645a3.bindPopup(popup_7d4556eedd2981cbc607717677b7ac67)
+        ;
+
+        
+    
+</script>
+</html>

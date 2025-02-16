@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b51ce55139f089ad95ae98e9eee2011b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b51ce55139f089ad95ae98e9eee2011b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b51ce55139f089ad95ae98e9eee2011b = L.map(
+                "map_b51ce55139f089ad95ae98e9eee2011b",
+                {
+                    center: [37.75072384443678, -122.47142558398826],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_12f8490dad40763fa2bb7595c6b4c90c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_12f8490dad40763fa2bb7595c6b4c90c.addTo(map_b51ce55139f089ad95ae98e9eee2011b);
+        
+    
+            var marker_52d075f4c3036d793bf6df6e068f0f3f = L.marker(
+                [37.75072384443678, -122.47142558398826],
+                {
+}
+            ).addTo(map_b51ce55139f089ad95ae98e9eee2011b);
+        
+    
+        var popup_79264cdf8db5d4f279f63380714318e4 = L.popup({
+  "maxWidth": 300,
+  "autoOpen": true,
+});
+
+        
+            
+                var html_c82f2cb976cc1c6ef2a65001a7a6d9df = $(`<div id="html_c82f2cb976cc1c6ef2a65001a7a6d9df" style="width: 100.0%; height: 100.0%;">Mandalay Lane Park</div>`)[0];
+                popup_79264cdf8db5d4f279f63380714318e4.setContent(html_c82f2cb976cc1c6ef2a65001a7a6d9df);
+            
+        
+
+        marker_52d075f4c3036d793bf6df6e068f0f3f.bindPopup(popup_79264cdf8db5d4f279f63380714318e4)
+        ;
+
+        
+    
+</script>
+</html>

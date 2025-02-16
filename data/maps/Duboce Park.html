@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_143e1c6f9eb7be12ed508498e71dbd21 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_143e1c6f9eb7be12ed508498e71dbd21" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_143e1c6f9eb7be12ed508498e71dbd21 = L.map(
+                "map_143e1c6f9eb7be12ed508498e71dbd21",
+                {
+                    center: [37.769622386972614, -122.43336874044672],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_499e5e0b05382dd84c33230e71394563 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_499e5e0b05382dd84c33230e71394563.addTo(map_143e1c6f9eb7be12ed508498e71dbd21);
+        
+    
+            var marker_62c7d7abc9b06526c613055f1dcfd0e5 = L.marker(
+                [37.769622386972614, -122.43336874044672],
+                {
+}
+            ).addTo(map_143e1c6f9eb7be12ed508498e71dbd21);
+        
+    
+        var popup_9055e7a09dc363ad4d75cc3815a9959e = L.popup({
+  "maxWidth": 300,
+  "autoOpen": true,
+});
+
+        
+            
+                var html_83ea5b6c46a51a3880ee8d6b5af19dd8 = $(`<div id="html_83ea5b6c46a51a3880ee8d6b5af19dd8" style="width: 100.0%; height: 100.0%;">Duboce Park</div>`)[0];
+                popup_9055e7a09dc363ad4d75cc3815a9959e.setContent(html_83ea5b6c46a51a3880ee8d6b5af19dd8);
+            
+        
+
+        marker_62c7d7abc9b06526c613055f1dcfd0e5.bindPopup(popup_9055e7a09dc363ad4d75cc3815a9959e)
+        ;
+
+        
+    
+</script>
+</html>

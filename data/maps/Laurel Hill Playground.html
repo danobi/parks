@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_347c842ce6a1b164984b636fdb3f05ec {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_347c842ce6a1b164984b636fdb3f05ec" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_347c842ce6a1b164984b636fdb3f05ec = L.map(
+                "map_347c842ce6a1b164984b636fdb3f05ec",
+                {
+                    center: [37.783944654052135, -122.45096119754531],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f753326c8c81575c2d405ee5e960311e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f753326c8c81575c2d405ee5e960311e.addTo(map_347c842ce6a1b164984b636fdb3f05ec);
+        
+    
+            var marker_58b91ca19d8c8a86114d06a5d26a0769 = L.marker(
+                [37.783944654052135, -122.45096119754531],
+                {
+}
+            ).addTo(map_347c842ce6a1b164984b636fdb3f05ec);
+        
+    
+        var popup_4d98c0f9a2bcf1b3d169161caa524fdd = L.popup({
+  "maxWidth": 300,
+  "autoOpen": true,
+});
+
+        
+            
+                var html_1ccab9fea84dbdcf15bb1786942d2eb9 = $(`<div id="html_1ccab9fea84dbdcf15bb1786942d2eb9" style="width: 100.0%; height: 100.0%;">Laurel Hill Playground</div>`)[0];
+                popup_4d98c0f9a2bcf1b3d169161caa524fdd.setContent(html_1ccab9fea84dbdcf15bb1786942d2eb9);
+            
+        
+
+        marker_58b91ca19d8c8a86114d06a5d26a0769.bindPopup(popup_4d98c0f9a2bcf1b3d169161caa524fdd)
+        ;
+
+        
+    
+</script>
+</html>
