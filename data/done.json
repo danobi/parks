@@ -1,7 +1,55 @@
 {
-  "Presidio of San Francisco": {
+  "Alamo Square": {
+    "Rating": 4,
+    "Remarks": "Would be 5 stars except except too many tourists. Of course there are the painted ladies as well."
+  },
+  "Aquatic Park Historic District": {
+    "Rating": 5,
+    "Remarks": "Seems a bit touristy but this place is just awesome. Love to swim here. Apparently there's yoga on Sundays as well."
+  },
+  "Billy Goat Hill": {
+    "Rating": 5,
+    "Remarks": "Small but amazing spot overlooking the city. Sunset views are incredible. I also proposed here!"
+  },
+  "Bosworth Street Open Space": {
+    "Rating": 1,
+    "Remarks": "Not sure how this qualifies as a park. I tried to eat a sandwich here before and there's not even anywhere to sit down."
+  },
+  "Embarcadero Plaza": {
+    "Rating": 1,
+    "Remarks": "The concrete fountain is cool, but this is otherwise not a park. Not much to enjoy except the fountain."
+  },
+  "Fairmount Open Space": {
+    "Rating": 3,
+    "Remarks": "Nice quiet spot in residential Glen Park. Has decent views of the city (although any of the houses on this street have better views from indoors)"
+  },
+  "Fort Mason": {
+    "Rating": 4,
+    "Remarks": "Lot going on here. Coffee at Equator is good. I find the path from here to Aquatic park a lot nicer."
+  },
+  "Glen Canyon Park": {
+    "Rating": 5,
+    "Remarks": "One of my favorites in the city. On some trails it feels like you're in the middle of nowhere. Many good trails to take inside. Grab a banh mi from 'Viking subs' after - best spot in Glen Park IMO."
+  },
+  "Golden Gate Park": {
     "Rating": 5,
     "Remarks": "Have you really not visited yet?"
+  },
+  "Hippie Hill": {
+    "Rating": 5,
+    "Remarks": "Historic spot. Dropped acid here once and watched the drum circle for a few hours."
+  },
+  "Lake Merced Park": {
+    "Rating": 2,
+    "Remarks": "Reasonably nice lake. Not very interesting in the winter. Would be a 3 star but the excessive street noise ruin my walks here."
+  },
+  "Lands End": {
+    "Rating": 5,
+    "Remarks": "I haven't come here enough. Will need to come back."
+  },
+  "Marina Green": {
+    "Rating": 3,
+    "Remarks": "This place seems like it'd be awesome but it's just OK. I like biking down the straightaway here."
   },
   "Mount Davidson Park": {
     "Rating": 5,
@@ -11,8 +59,40 @@
     "Rating": 4,
     "Remarks": "Classic, but obviously not very peaceful."
   },
+  "Moscone Recreation Center": {
+    "Rating": 2,
+    "Remarks": "Interesting statues on Laguna street side but otherwise a very generic recreation center."
+  },
+  "Panhandle": {
+    "Rating": 5,
+    "Remarks": "Awesome spot in the city. Great place to chill during a bike ride."
+  },
+  "Potrero Hill Recreation Center": {
+    "Rating": 4,
+    "Remarks": "Came here often for walks during Covid. Has a bunch of stuff but nothing that really interested me."
+  },
+  "Presidio of San Francisco": {
+    "Rating": 5,
+    "Remarks": "Have you really not visited yet?"
+  },
+  "Rincon Park": {
+    "Rating": 4,
+    "Remarks": "Right by the water. Nice spot to relax after visiting farmer's market in Ferry building. Cupid's arrow is a little too large IMO."
+  },
+  "Starr King Open Space": {
+    "Rating": 5,
+    "Remarks": "I used to live on this street. Came here a lot during Covid. Excellent spot for a walk. Decent views of the city."
+  },
+  "Sue Bierman Park": {
+    "Rating": 3,
+    "Remarks": "Nice quiet park away from busy Ferry building and Embarcadero. Quite nice to bring a sandwich here."
+  },
   "Walter Haas Playground": {
     "Rating": 2,
     "Remarks": "Not much going on. Has a dog park which smells like piss."
+  },
+  "Yerba Buena Gardens": {
+    "Rating": 2,
+    "Remarks": "Would be a lot cooler if it was cleaner and had less loitering."
   }
 }
