@@ -11,6 +11,10 @@
     "Rating": 5,
     "Remarks": "Small but amazing spot overlooking the city. Sunset views are incredible. I also proposed here!"
   },
+  "Bernal Heights Park": {
+    "Rating": 5,
+    "Remarks": "Another classic spot in the city with great views and a paved trail up."
+  },
   "Bosworth Street Open Space": {
     "Rating": 1,
     "Remarks": "Not sure how this qualifies as a park. I tried to eat a sandwich here before and there's not even anywhere to sit down."
@@ -38,6 +42,10 @@
   "Hippie Hill": {
     "Rating": 5,
     "Remarks": "Historic spot. Dropped acid here once and watched the drum circle for a few hours."
+  },
+  "Holly Park": {
+    "Rating": 4,
+    "Remarks": "Loved how it was both round and elevated. Visited at night."
   },
   "Lake Merced Park": {
     "Rating": 2,
@@ -70,6 +78,10 @@
   "Potrero Hill Recreation Center": {
     "Rating": 4,
     "Remarks": "Came here often for walks during Covid. Has a bunch of stuff but nothing that really interested me."
+  },
+  "Precita Park": {
+    "Rating": 2,
+    "Remarks": "Long strip of grass. There were lights hung on one side which were nice. Other side had construction."
   },
   "Presidio of San Francisco": {
     "Rating": 5,
