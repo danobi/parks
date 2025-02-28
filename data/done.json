@@ -11,6 +11,10 @@
     "Rating": 5,
     "Remarks": "Seems a bit touristy but this place is just awesome. Love to swim here. Apparently there's yoga on Sundays as well."
   },
+  "Baden-Joost Mini Park": {
+    "Rating": 5,
+    "Remarks": "Earns its mini park name. Quite nice set of stairs. Lots of different flowers and smells. Not a straight stair down either - nice curves giving impression denser illusion. Definitely check out Sunnyside Conservatory near by."
+  },
   "Billy Goat Hill": {
     "Rating": 5,
     "Remarks": "Small but amazing spot overlooking the city. Sunset views are incredible. I also proposed here!"
@@ -22,6 +26,10 @@
   "Bosworth Street Open Space": {
     "Rating": 1,
     "Remarks": "Not sure how this qualifies as a park. I tried to eat a sandwich here before and there's not even anywhere to sit down."
+  },
+  "Dorothy W. Erskine Park": {
+    "Rating": 3,
+    "Remarks": "Nice panoramic views of the city. At top it's not much more than large dog park. But nice foliage."
   },
   "Duncan-Castro Open Space": {
     "Rating": 3,
@@ -110,6 +118,14 @@
   "Sue Bierman Park": {
     "Rating": 3,
     "Remarks": "Nice quiet park away from busy Ferry building and Embarcadero. Quite nice to bring a sandwich here."
+  },
+  "Sunnyside Conservatory": {
+    "Rating": 5,
+    "Remarks": "Just awesome. It's one of those places you could live your entire life in the city and not find. Lit stairs, many different kinds of vegetation. Lots of nice floral smells. Very dense. At the base there's some massive palm trees as well as a nicely preserved historical building. Was locked at night when I visited, but it looked like you could go in."
+  },
+  "Sunnyside Playground": {
+    "Rating": 2,
+    "Remarks": "Regular old playground. Felt kind of sterile. Seemed to have an after-school center here."
   },
   "Topaz Open Space": {
     "Rating": 1,
