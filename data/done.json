@@ -31,6 +31,10 @@
     "Rating": 3,
     "Remarks": "Nice panoramic views of the city. At top it's not much more than large dog park. But nice foliage."
   },
+  "Douglass Playground": {
+    "Rating": 4,
+    "Remarks": "It's technically one park but it's split into two sections. On the upper side is the dog park. Quite nice - lots of trees circling a large field. On the lower side, some tennis courts and grass area. Felt a lot like golden gate park, except with some steep cliffs. Who know this could be in SF?!"
+  },
   "Duncan-Castro Open Space": {
     "Rating": 3,
     "Remarks": "Rough patch of grass. But nice view of Sutro tower. It would have a nice city view but there's some unfortunately placed trees which block the most interesting bits."
@@ -86,6 +90,10 @@
   "Moscone Recreation Center": {
     "Rating": 2,
     "Remarks": "Interesting statues on Laguna street side but otherwise a very generic recreation center."
+  },
+  "Noe Valley Courts": {
+    "Rating": 2,
+    "Remarks": "Just a normal park. Lots of dogs. Not much going on except for a tennis court and basketball court."
   },
   "Noe Valley Town Square": {
     "Rating": 2,
