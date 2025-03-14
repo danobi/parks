@@ -23,6 +23,10 @@
     "Rating": 5,
     "Remarks": "Another classic spot in the city with great views and a paved trail up."
   },
+  "Bernal Recreation Center": {
+    "Rating": 2,
+    "Remarks": "Quite a sterile playground. Indoors area had a basketball court but it looked pretty old."
+  },
   "Bosworth Street Open Space": {
     "Rating": 1,
     "Remarks": "Not sure how this qualifies as a park. I tried to eat a sandwich here before and there's not even anywhere to sit down."
@@ -110,6 +114,10 @@
   "Precita Park": {
     "Rating": 2,
     "Remarks": "Long strip of grass. There were lights hung on one side which were nice. Other side had construction."
+  },
+  "Prentiss Mini-Park": {
+    "Rating": 1,
+    "Remarks": "Unimpressive. Some sand and a bunch of fake cacti."
   },
   "Presidio of San Francisco": {
     "Rating": 5,
