@@ -123,6 +123,30 @@
     </footer>
 
     <script>
+      // Handle hash changes (including back/forward navigation)
+      window.addEventListener('hashchange', function() {
+        const select = document.querySelector('select');
+        if (!select) {
+          // Not loaded yet
+          return;
+        }
+
+        let hashPark = window.location.hash;
+        // Remove hash symbol
+        if (hashPark.startsWith('#')) {
+          hashPark = hashPark.substring(1);
+        }
+
+        // Convert underscores back to spaces
+        const decodedPark = hashPark ? hashPark.replace(/_/g, ' ') : null;
+
+        if (decodedPark && select.querySelector(`option[value="${decodedPark}.html"]`)) {
+          select.value = `${decodedPark}.html`;
+          // Trigger change event to update the display
+          select.dispatchEvent(new Event('change'));
+        }
+      });
+
       // Fetch parks data and populate dropdown
       Promise.all([
         fetch('/data/park_sizes.json'),
@@ -149,20 +173,42 @@
             select.appendChild(option);
           });
 
-          // Set initial selected value
-          select.value = 'Presidio of San Francisco.html';
+          // Check for park in URL hash
+          let hashPark = window.location.hash;
+          // Remove hash symbol
+          if (hashPark.startsWith('#')) {
+            hashPark = hashPark.substring(1);
+          }
+
+          // Convert underscores back to spaces
+          const decodedPark = hashPark ? hashPark.replace(/_/g, ' ') : null;
+
+          if (decodedPark && parks[decodedPark]) {
+            select.value = `${decodedPark}.html`;
+          } else {
+            // Default park if none in hash or invalid
+            select.value = 'Presidio of San Francisco.html';
+          }
+
           // Trigger change event to load the map
           select.dispatchEvent(new Event('change'));
         });
 
       function onSelect(park) {
         document.getElementById('map-view').src = '/data/maps/' + park;
+        const parkName = park.replace('.html', '');
+
+        // Update URL hash fragment (no page reload, works with direct links)
+        const urlParkName = parkName.replace(/ /g, '_');
+        window.location.hash = urlParkName;
+
+        document.title = `SF Parks - ${parkName}`;
+
         fetch('/data/done.json')
           .then(response => response.json())
           .then(done => {
             const ratingDiv = document.querySelector('.rating');
             const remarksDiv = document.querySelector('.remarks');
-            const parkName = park.replace('.html', '');
             const parkInfo = done[parkName];
 
             if (parkInfo) {
