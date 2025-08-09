@@ -1,4 +1,8 @@
 {
+  "24th & York Mini Park": {
+    "Rating": 2,
+    "Remarks": "Snakes in the ground. Chairs prison like. Art is nice, though."
+  },
   "29th & Diamond Open Space": {
     "Rating": 1,
     "Remarks": "Yet another patch of grass that looks into some houses. Except this one was half torn down for construction."
@@ -63,6 +67,10 @@
     "Rating": 4,
     "Remarks": "Lot going on here. Coffee at Equator is good. I find the path from here to Aquatic park a lot nicer."
   },
+  "Garfield Square": {
+    "Rating": 3,
+    "Remarks": "Nice soccer field with teen game. Still smelled like weed. Large building in center with reasonable looking playground on other side. Felt like a relatively low effort park design."
+  },
   "Glen Canyon Park": {
     "Rating": 5,
     "Remarks": "One of my favorites in the city. On some trails it feels like you're in the middle of nowhere. Many good trails to take inside. Grab a banh mi from 'Viking subs' after - best spot in Glen Park IMO."
@@ -123,6 +131,18 @@
     "Rating": 5,
     "Remarks": "Awesome spot in the city. Great place to chill during a bike ride."
   },
+  "Parkside Square": {
+    "Rating": 3,
+    "Remarks": "Difficult to reach from pine lake park. Nice view of hills and sutro tower. Large playground for kids; likewise for field. Pickleball and tennis courts on side. Good features but nothing to break up the park. Visually not so appealing, but good location and surroundings."
+  },
+  "Pine Lake Park": {
+    "Rating": 5,
+    "Remarks": "Descends from street level into a lush canyon. Nice paved trail. Large serene lake. Walking further opens up into a large meadow with good foliage on sides. Just beautiful and so peaceful. Can't believe this is in the city."
+  },
+  "Potrero Del Sol Park": {
+    "Rating": 3,
+    "Remarks": "Next to freeway with lots of street noise. Nice skate park with large bowls. Good shade. Nice features. Proper playground for kids. Nice spots for families and adults as well."
+  },
   "Potrero Hill Recreation Center": {
     "Rating": 4,
     "Remarks": "Came here often for walks during Covid. Has a bunch of stuff but nothing that really interested me."
@@ -142,6 +162,14 @@
   "Rincon Park": {
     "Rating": 4,
     "Remarks": "Right by the water. Nice spot to relax after visiting farmer's market in Ferry building. Cupid's arrow is a little too large IMO."
+  },
+  "Rolph Playground": {
+    "Rating": 2,
+    "Remarks": "Next to freeway on-ramp. Lots of street noise. Two baseball fields with a few tennis and basketball courts. Looks fairly new. Would be a lot nicer without the noise, but with it it's pretty bad. Not many trees to break up the park."
+  },
+  "Sigmund Stern Recreation Grove": {
+    "Rating": 5,
+    "Remarks": "Well manicured grove. Different kinds of trees. Expansive feeling. At bottom getting yosemite vibes. Concert ground very nice with good use of stone. Wonderful gem in city - another one of those 'I can't believe this exists' places in SF."
   },
   "Starr King Open Space": {
     "Rating": 5,
