@@ -39,6 +39,14 @@
     "Rating": 1,
     "Remarks": "Not sure how this qualifies as a park. I tried to eat a sandwich here before and there's not even anywhere to sit down."
   },
+  "Buena Vista Park": {
+    "Rating": 5,
+    "Remarks": "Elevated. Great tree coverage with birds chirping. Minimal street noise and dense with trees as well. Easy to get lost on the winding trails. Hidden steps everywhere. One of the best."
+  },
+  "Corona Heights Park": {
+    "Rating": 4,
+    "Remarks": "Not much more than a tall mound of dirt. But on top spectacular views of the city."
+  },
   "Dorothy W. Erskine Park": {
     "Rating": 3,
     "Remarks": "Nice panoramic views of the city. At top it's not much more than large dog park. But nice foliage."
@@ -82,6 +90,10 @@
   "Hippie Hill": {
     "Rating": 5,
     "Remarks": "Historic spot. Dropped acid here once and watched the drum circle for a few hours."
+  },
+  "Helen Wills Park": {
+    "Rating": 2,
+    "Remarks": "Bare bones children's park, complete with its own bridge and under the bridge vibe. Nice children's building though. Comes with a single tennis court."
   },
   "Holly Park": {
     "Rating": 4,
@@ -158,6 +170,10 @@
   "Presidio of San Francisco": {
     "Rating": 5,
     "Remarks": "Have you really not visited yet?"
+  },
+  "Presidio Tunnel Tops": {
+    "Rating": 5,
+    "Remarks": "Very nice view of bridge, palace of fine arts, and skyline. Elevated view of Marin as well. Lots of HW 101 noise, though."
   },
   "Rincon Park": {
     "Rating": 4,
